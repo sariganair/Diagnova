@@ -1,0 +1,563 @@
+[
+  {
+    "disease": "Common Cold",
+    "keywords": [
+      "cold",
+      "runny nose",
+      "sneezing",
+      "nasal congestion",
+      "sore throat"
+    ],
+    "response": "Likely a common cold. Rest, stay hydrated, use warm fluids, and consider OTC cold medicines. If fever or breathing difficulty occurs, see a doctor."
+  },
+  {
+    "disease": "Flu (Influenza)",
+    "keywords": [
+      "flu",
+      "influenza",
+      "high fever",
+      "body ache",
+      "chills",
+      "fatigue"
+    ],
+    "response": "Symptoms suggest influenza. Rest, fluids, and antipyretics (paracetamol). If severe or high risk, seek medical care; antivirals may be needed."
+  },
+  {
+    "disease": "COVID-19",
+    "keywords": [
+      "covid",
+      "coronavirus",
+      "loss of taste",
+      "loss of smell",
+      "dry cough",
+      "shortness of breath"
+    ],
+    "response": "These could be COVID-19 symptoms. Self-isolate, test if available, monitor breathing. Seek medical care for worsening symptoms."
+  },
+  {
+    "disease": "Migraine",
+    "keywords": [
+      "migraine",
+      "headache",
+      "pulsating",
+      "sensitivity to light",
+      "nausea",
+      "aura"
+    ],
+    "response": "Sounds like a migraine. Rest in a dark quiet room, hydration, and prescribed migraine medications if available. See a physician if headaches are new or severe."
+  },
+  {
+    "disease": "Tension Headache",
+    "keywords": [
+      "tension headache",
+      "stress headache",
+      "tight head",
+      "band like"
+    ],
+    "response": "Typical tension headache—often due to stress or poor posture. Try rest, hydration, and OTC pain relief; practice relaxation."
+  },
+  {
+    "disease": "Gastritis/Indigestion",
+    "keywords": [
+      "stomach pain",
+      "indigestion",
+      "heartburn",
+      "acid reflux",
+      "burning chest"
+    ],
+    "response": "May be gastritis or acid reflux. Avoid spicy/acidic foods, eat small meals, antacids may help. If severe pain or bleeding occurs, seek care."
+  },
+  {
+    "disease": "Gastroenteritis (Stomach Flu)",
+    "keywords": [
+      "vomiting",
+      "diarrhea",
+      "stomach bug",
+      "stomach flu",
+      "abdominal cramps"
+    ],
+    "response": "Likely gastroenteritis. Stay hydrated (ORS), rest, and avoid solid food short-term. Seek care if severe dehydration or bloody stools."
+  },
+  {
+    "disease": "Food Poisoning",
+    "keywords": [
+      "food poisoning",
+      "vomit after food",
+      "diarrhea after eating",
+      "foodborne"
+    ],
+    "response": "Could be food poisoning. Maintain hydration, rest, and seek care if high fever, severe dehydration, or bloody stools."
+  },
+  {
+    "disease": "Urinary Tract Infection (UTI)",
+    "keywords": [
+      "burning urination",
+      "frequent urination",
+      "urine smell",
+      "lower abdominal pain",
+      "uti"
+    ],
+    "response": "Symptoms suggest a UTI. See a doctor for urine test and antibiotics if confirmed."
+  },
+  {
+    "disease": "Allergic Rhinitis (Allergy)",
+    "keywords": [
+      "allergy",
+      "sneezing",
+      "itchy eyes",
+      "runny nose",
+      "hay fever"
+    ],
+    "response": "Likely allergic rhinitis. Antihistamines, nasal sprays, and avoiding triggers help. See allergist if persistent."
+  },
+  {
+    "disease": "Bronchitis",
+    "keywords": [
+      "bronchitis",
+      "wet cough",
+      "productive cough",
+      "chest congestion"
+    ],
+    "response": "May be bronchitis. Rest, fluids, and expectorants. See a doctor if fever persists or breathing worsens."
+  },
+  {
+    "disease": "Pneumonia",
+    "keywords": [
+      "pneumonia",
+      "chest pain",
+      "high fever",
+      "shortness of breath",
+      "productive cough with blood"
+    ],
+    "response": "These signs may indicate pneumonia. Seek immediate medical evaluation and possible antibiotics."
+  },
+  {
+    "disease": "Ear Infection (Otitis Media)",
+    "keywords": [
+      "ear pain",
+      "earache",
+      "ear discharge",
+      "hearing reduced",
+      "otitis"
+    ],
+    "response": "Could be an ear infection. See a physician for diagnosis; antibiotics may be required."
+  },
+  {
+    "disease": "Sinusitis",
+    "keywords": [
+      "sinus pain",
+      "facial pain",
+      "blocked nose",
+      "postnasal drip",
+      "sinus"
+    ],
+    "response": "Likely sinusitis. Nasal saline, decongestants, and if prolonged, see a doctor for further treatment."
+  },
+  {
+    "disease": "Strep Throat",
+    "keywords": [
+      "sore throat",
+      "strep",
+      "pus on tonsils",
+      "difficulty swallowing",
+      "high fever"
+    ],
+    "response": "Possible strep throat. See doctor for rapid strep test; antibiotics if positive."
+  },
+  {
+    "disease": "Pharyngitis (Viral Sore Throat)",
+    "keywords": [
+      "sore throat",
+      "scratchy throat",
+      "hoarseness",
+      "pharyngitis"
+    ],
+    "response": "Often viral. Rest, warm saline gargles, and throat lozenges may help."
+  },
+  {
+    "disease": "Conjunctivitis (Pink Eye)",
+    "keywords": [
+      "red eye",
+      "eye discharge",
+      "conjunctivitis",
+      "itchy eyes",
+      "sticky eyes"
+    ],
+    "response": "Symptoms suggest conjunctivitis. Keep eyes clean; see clinician to determine bacterial vs viral for treatment."
+  },
+  {
+    "disease": "Dermatitis/Eczema",
+    "keywords": [
+      "rash",
+      "itching skin",
+      "eczema",
+      "dry skin",
+      "red patches"
+    ],
+    "response": "Possible dermatitis. Moisturize, avoid irritants, and use topical treatments prescribed by a doctor if needed."
+  },
+  {
+    "disease": "Chickenpox",
+    "keywords": [
+      "chickenpox",
+      "itchy vesicles",
+      "fever",
+      "blisters"
+    ],
+    "response": "Likely chickenpox if vesicular rash present. Isolate, symptomatic care for fever and itching; consult doctor especially if adult or pregnant."
+  },
+  {
+    "disease": "Shingles (Herpes Zoster)",
+    "keywords": [
+      "shingles",
+      "band-like rash",
+      "tingling skin",
+      "herpes zoster",
+      "painful rash"
+    ],
+    "response": "Shingles causes a painful blistering rash in a dermatomal pattern. See doctor; antiviral treatment is often effective if started early."
+  },
+  {
+    "disease": "Urinary Stones (Kidney Stones)",
+    "keywords": [
+      "severe flank pain",
+      "blood in urine",
+      "renal colic",
+      "kidney stone",
+      "colicky pain"
+    ],
+    "response": "Could be kidney stones. Severe pain and blood in urine need urgent evaluation and imaging."
+  },
+  {
+    "disease": "Hypertension (High BP)",
+    "keywords": [
+      "high blood pressure",
+      "hypertension",
+      "headache with high bp",
+      "blurred vision"
+    ],
+    "response": "If blood pressure is high, follow up with measurement and medical management; lifestyle changes and medications may be recommended."
+  },
+  {
+    "disease": "Hypotension (Low BP)",
+    "keywords": [
+      "low blood pressure",
+      "dizzy on standing",
+      "fainting",
+      "lightheaded"
+    ],
+    "response": "May be low blood pressure — hydrate, rise slowly from sitting, seek medical advice if recurrent."
+  },
+  {
+    "disease": "Anemia",
+    "keywords": [
+      "pale",
+      "fatigue",
+      "shortness of breath on exertion",
+      "low hb",
+      "anemia"
+    ],
+    "response": "Signs could indicate anemia. See a doctor for blood tests and treatment depending on cause."
+  },
+  {
+    "disease": "Diabetes (High Blood Sugar)",
+    "keywords": [
+      "frequent urination",
+      "excessive thirst",
+      "blurred vision",
+      "unexplained weight loss",
+      "diabetes"
+    ],
+    "response": "These may be diabetes symptoms. Get blood glucose tested and seek medical care for diagnosis and management."
+  },
+  {
+    "disease": "Hypoglycemia (Low Blood Sugar)",
+    "keywords": [
+      "shaky",
+      "sweating",
+      "palpitations",
+      "confused",
+      "low blood sugar"
+    ],
+    "response": "If blood sugar is low, consume fast-acting carbs (juice, glucose). Seek medical help if severe or recurrent."
+  },
+  {
+    "disease": "Appendicitis",
+    "keywords": [
+      "right lower abdominal pain",
+      "appendicitis",
+      "rebound tenderness",
+      "fever with abdominal pain"
+    ],
+    "response": "Appendicitis is possible. Urgent surgical evaluation is needed—seek emergency care."
+  },
+  {
+    "disease": "Gallstones / Cholecystitis",
+    "keywords": [
+      "right upper abdominal pain",
+      "pain after fatty meal",
+      "gallbladder",
+      "cholecystitis"
+    ],
+    "response": "May be gallbladder-related. See doctor for imaging and management; severe pain or jaundice needs urgent care."
+  },
+  {
+    "disease": "Hemorrhoids",
+    "keywords": [
+      "blood on stool",
+      "painful bowel movement",
+      "hemorrhoid",
+      "anal pain"
+    ],
+    "response": "Likely hemorrhoids. High-fibre diet, sitz baths, topical treatments; consult doctor if bleeding is heavy."
+  },
+  {
+    "disease": "Irritable Bowel Syndrome (IBS)",
+    "keywords": [
+      "abdominal pain relieved by defecation",
+      "alternating diarrhea constipation",
+      "ibs",
+      "bloating"
+    ],
+    "response": "IBS is a functional bowel disorder. Dietary changes (FODMAP), stress management, and medications may help."
+  },
+  {
+    "disease": "Depression",
+    "keywords": [
+      "sad",
+      "low mood",
+      "loss of interest",
+      "depressed",
+      "hopeless"
+    ],
+    "response": "Symptoms point to possible depression. Talk to a healthcare professional; counselling and medications can help."
+  },
+  {
+    "disease": "Anxiety Disorder",
+    "keywords": [
+      "anxious",
+      "panic attack",
+      "shortness of breath with anxiety",
+      "palpitations with worry"
+    ],
+    "response": "Anxiety symptoms are common. Consider relaxation, therapy, and discuss medication options with a clinician if needed."
+  },
+  {
+    "disease": "Insomnia",
+    "keywords": [
+      "can't sleep",
+      "insomnia",
+      "difficulty sleeping",
+      "awake at night"
+    ],
+    "response": "Good sleep hygiene is key. Avoid screens before bed, regulate sleep schedule; seek help if chronic."
+  },
+  {
+    "disease": "Otitis Externa (Swimmer's Ear)",
+    "keywords": [
+      "outer ear pain",
+      "swimmer's ear",
+      "ear canal pain",
+      "itchy ear canal"
+    ],
+    "response": "Often due to water exposure. Keep ear dry; see doctor for topical treatments if needed."
+  },
+  {
+    "disease": "Sprain/Strain",
+    "keywords": [
+      "twisted ankle",
+      "sprain",
+      "swelling after injury",
+      "pain with movement"
+    ],
+    "response": "RICE: rest, ice, compression, elevation. See doctor if severe or suspected fracture."
+  },
+  {
+    "disease": "Fracture",
+    "keywords": [
+      "deformed limb",
+      "severe pain after fall",
+      "can't move limb",
+      "broken bone"
+    ],
+    "response": "Possible fracture—immobilize and seek immediate medical attention."
+  },
+  {
+    "disease": "Back Pain (Mechanical)",
+    "keywords": [
+      "lower back pain",
+      "backache after lifting",
+      "mechanical back pain",
+      "lumbar pain"
+    ],
+    "response": "Most mechanical back pain improves with rest, posture correction, analgesics, and physiotherapy."
+  },
+  {
+    "disease": "Osteoarthritis",
+    "keywords": [
+      "joint pain",
+      "stiffness",
+      "osteoarthritis",
+      "pain worse with use"
+    ],
+    "response": "Likely osteoarthritis. Weight management, exercise, and pain control are mainstays."
+  },
+  {
+    "disease": "Rheumatoid Arthritis",
+    "keywords": [
+      "symmetric joint pain",
+      "morning stiffness",
+      "rheumatoid",
+      "swollen joints"
+    ],
+    "response": "Autoimmune arthritis possible. Early rheumatology review and blood tests are important for diagnosis and treatment."
+  },
+  {
+    "disease": "Dermatophyte Infection (Ringworm)",
+    "keywords": [
+      "ring shaped rash",
+      "tinea",
+      "ringworm",
+      "scaly circular lesion"
+    ],
+    "response": "Fungal skin infection likely. Topical antifungals are typically effective."
+  },
+  {
+    "disease": "Bronchial Asthma",
+    "keywords": [
+      "wheeze",
+      "asthma",
+      "shortness of breath with wheeze",
+      "chest tightness"
+    ],
+    "response": "Asthma symptoms—use prescribed inhaler and seek review if attack is severe."
+  },
+  {
+    "disease": "COPD (Chronic Bronchitis/Emphysema)",
+    "keywords": [
+      "chronic cough",
+      "smoker cough",
+      "shortness of breath on exertion long-standing"
+    ],
+    "response": "Chronic lung disease possible. Smoking cessation and specialist review are important."
+  },
+  {
+    "disease": "Anaphylaxis",
+    "keywords": [
+      "swelling throat",
+      "difficulty breathing after allergen",
+      "hives with breathing difficulty",
+      "anaphylaxis"
+    ],
+    "response": "Anaphylaxis is life‑threatening—call emergency services immediately and use epinephrine if available."
+  },
+  {
+    "disease": "Cellulitis",
+    "keywords": [
+      "red swollen skin",
+      "spreading redness",
+      "fever with redness",
+      "cellulitis"
+    ],
+    "response": "Possible skin infection that can spread—see a doctor urgently for antibiotics."
+  },
+  {
+    "disease": "Sepsis (suspected)",
+    "keywords": [
+      "high fever low blood pressure very sick confusion rapid breathing",
+      "sepsis",
+      "very ill"
+    ],
+    "response": "Sepsis is a medical emergency. Seek immediate emergency care."
+  },
+  {
+    "disease": "Stroke (CVA)",
+    "keywords": [
+      "face droop",
+      "arm weakness",
+      "slurred speech",
+      "sudden weakness on one side",
+      "stroke"
+    ],
+    "response": "Stroke signs—call emergency services immediately (time-sensitive treatment)."
+  },
+  {
+    "disease": "Heart Attack (Myocardial Infarction)",
+    "keywords": [
+      "chest pain radiating to arm jaw",
+      "sweating with chest pain",
+      "heart attack",
+      "pressure in chest"
+    ],
+    "response": "Possible heart attack—seek emergency medical care immediately."
+  },
+  {
+    "disease": "Gout",
+    "keywords": [
+      "sudden severe joint pain big toe",
+      "gout",
+      "red swollen toe joint",
+      "podagra"
+    ],
+    "response": "Gout flare likely. Rest, NSAIDs if appropriate, and consult doctor for diagnosis and long-term management."
+  },
+  {
+    "disease": "Bacterial Vaginosis / Vaginal Infection",
+    "keywords": [
+      "vaginal discharge foul smell itching",
+      "vaginal infection",
+      "bv"
+    ],
+    "response": "Possible vaginal infection—see gynecologist for examination and treatment."
+  },
+  {
+    "disease": "Menstrual Cramps (Dysmenorrhea)",
+    "keywords": [
+      "period cramps",
+      "menstrual pain",
+      "dysmenorrhea",
+      "cramps during period"
+    ],
+    "response": "Common menstrual cramps—NSAIDs and heat packs help. See doctor for severe or irregular bleeding."
+  },
+  {
+    "disease": "PID (Pelvic Inflammatory Disease)",
+    "keywords": [
+      "pelvic pain with fever abnormal discharge",
+      "pid",
+      "lower abdominal pain with fever"
+    ],
+    "response": "PID is a serious infection—see gynecologic care for antibiotics and evaluation."
+  },
+  {
+    "disease": "Meniere's Disease",
+    "keywords": [
+      "vertigo with hearing loss tinnitus recurrent vertigo",
+      "meniere"
+    ],
+    "response": "Suggestive of Meniere's—specialist ENT assessment recommended."
+  },
+  {
+    "disease": "Ear Wax Impaction",
+    "keywords": [
+      "blocked ear hearing muffled ear wax",
+      "ear wax",
+      "blocked hearing"
+    ],
+    "response": "Ear wax build-up—avoid cotton buds; see clinician for safe removal."
+  },
+  {
+    "disease": "Periodontal/Gum Disease",
+    "keywords": [
+      "bleeding gums swollen gums bad breath gum pain periodontal"
+    ],
+    "response": "Gum disease—dental review, good oral hygiene, and professional cleaning recommended."
+  },
+  {
+    "disease": "Aphthous Ulcer (Canker Sore)",
+    "keywords": [
+      "mouth ulcer painful mouth sore canker sore"
+    ],
+    "response": "Canker sores are usually self-limiting; topical gels and avoiding spicy food help."
+  }
+]
